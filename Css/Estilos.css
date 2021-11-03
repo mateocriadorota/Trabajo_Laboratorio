@@ -1,0 +1,137 @@
+*{
+	background: url(imagenes/Fondo.jpg);
+}
+
+body{
+	font-family: arial black;
+}
+h1#geogra{
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 1px;
+	font-size: 1000% ;
+	font-weight: 800;
+	color: transparent;
+	background: url(https://media.giphy.com/media/35MAdPmdmRO3oCmWN0/giphy.gif);
+	background-position: center;
+	-webkit-background-clip: text;
+}
+
+div.Pregunta{
+	border: 1px solid black;
+	border-radius: 2rem;
+	margin:70px 500px 90px;
+	padding-bottom: 20px;
+	background: none;
+}
+div.Pregunta p, div.Pregunta h2{
+	text-align: center;
+	background: none;
+}
+div.Pregunta p{
+	font-size: 25px;
+	border: solid 1px ;
+}
+div.Items input{
+	margin-left: 45%;
+}
+
+div.Items, label.leb{
+	background: none;
+	cursor: pointer;
+
+}
+
+div.fondo{
+	margin-top:50px ;
+}
+div#div_peru{
+	background: url(imagenes/Peru.jpg);
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	border-radius: 2rem;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+div.Pregunta#preg1{
+	color: white;
+	border-color: white;
+}
+div.Pregunta#preg1:hover{
+	box-shadow: 4px 4px 4px red;
+}
+
+div#div_brasil{
+	background: url(imagenes/Brasil.jpg);
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	border-radius: 2rem;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+div.Pregunta#preg2:hover{
+	box-shadow: 4px 4px 4px greenyellow;
+}
+
+div.Pregunta#preg2{
+	color: white;
+	border-color: white;
+}
+
+div#Div_Acon{
+	background: url(imagenes/Aconcagua.jpg);
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	border-radius: 2rem;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-size: 100vw 100vh;
+	margin-top: 50px;
+}
+label#AconcaguaI{
+	margin-left: 35%;
+	font-size: 17px;
+}
+
+input#AconcaguaT{
+	margin-left: 40%;
+	background: white;
+	height: 30px;
+}
+div.Pregunta#preg3{
+	border-color: black;
+}
+
+div#caja{
+	background: none;
+	margin-left: 40%;
+	font-size: 20px;
+}
+
+div.Pregunta#preg3:hover{
+	box-shadow: 4px 4px 4px lightblue;
+}
+
+div#Europeos{
+	background: url(imagenes/Europa.jpg);
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	border-radius: 2rem;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-size: 100vw 50vh;
+	margin-top: 50px;
+	color: white;
+}
+div.Pregunta#preg4{
+	border-color: white;
+}
+div.Pregunta#preg4:hover{
+	box-shadow: 4px 4px 4px yellow;
+}
+#calificacion{
+	background: none;
+	text-align: center;
+	font-size: 120px;
+}

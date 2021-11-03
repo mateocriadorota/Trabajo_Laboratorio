@@ -1,0 +1,18 @@
+input#boton{
+	border-radius: 10px;
+	text-align: center;
+	font-family: arial black;
+	font-size: 18px;
+	color: black;
+	padding: 16px 32px;
+	margin: 20px 44%;
+	cursor: pointer;
+	background: whitesmoke	;
+	width: 180px;
+}	
+input#boton:hover{
+	transition: .5s ease;
+	color: white;
+	box-shadow: 2px 2px 2px lightgray;
+	background: none;
+}

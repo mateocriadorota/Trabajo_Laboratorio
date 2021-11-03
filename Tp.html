@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<link rel="stylesheet" type="text/css" href="Css/Estilos.css">
+		<link rel="stylesheet" type="text/css" href="Css/Boton.CSS">
+
+		<title>Tabajo Practico Laboratorio</title>
+	</head>
+	<body>
+		<h1 id="geogra">Geografía</h1>
+		<div id="calificacion"></div>
+		<div class="Preguntas">		
+			<form action="#" id="formu" method="get"> 
+				<div class="fondo" id="div_peru">
+					<div class ="Pregunta" id="preg1">
+						<h2>Pregunta 1</h2>
+						<p>¿Cuál es la capital de Peru?</p>
+						<div class="Items" id="peru">
+							<input id="peruP" type="radio" name="Pregunta1">
+							<label for="peruP" id="peruT" class="leb">Perú</label>
+						</div>
+
+						<div class="Items" id="Lima">
+							<input id="LimaP" type="radio" name="Pregunta1">
+							<label for="LimaP" id="LimaT" class="leb">Lima</label>
+						</div>
+
+						<div class="Items" id="Montevideo">
+							<input id="MontevideoP" type="radio" name="Pregunta1">
+							<label for="MontevideoP" id="MontevideoT" class="leb">Montevideo</label>
+						</div>
+						
+						<div class="Items" id="Caracas">
+							<input id="CaracasP" type="radio" name="Pregunta1">
+							<label for="CaracasP" id="CaracasT" class="leb">Caracas</label>
+						</div>
+					</div>
+				</div>
+				
+				<div class="fondo" id="div_brasil">
+					<div class ="Pregunta" id="preg2">
+						<h2>Pregunta 2</h2>
+						<p>¿Cuál es la capital de Brasil?</p>
+						<div class="Items" id="Madrid">
+							<input  type="radio" id="MadridP" name="Pregunta2">
+							<label for="MadridP" class="leb" id="MadridT">Madrid</label>
+						</div>
+
+						<div class="Items" id="Brasil">
+							<input id="BrasilP" type="radio" name="Pregunta2">
+							<label for="BrasilP" class="leb" id="BrasilT">Brasil</label>
+						</div>
+
+						<div class="Items" id="Brasilia">
+							<input id="BrasiliaP" type="radio" name="Pregunta2">
+							<label for="BrasiliaP" class="leb" id="BrasiliaT">Brasilia</label>
+						</div>
+						
+						<div class="Items" id="Lisboa">
+							<input type="radio" id="LisboaP" name="Pregunta2">
+							<label for="LisboaP" class="leb" id="LisboaT">Lisboa</label>
+						</div>
+					</div>
+				</div>
+
+				<div id="Div_Acon">
+					<div class ="Pregunta" id="preg3">
+						<h2>Pregunta 3</h2>
+						<p>¿El Aconcagua es la montaña más alta de América del Sur?</p>
+						
+						<div class="Items" id="Aconcagua">
+							<div class="Items">
+								<label  class="leb" id="AconcaguaI">Ingresar verdadero o falso</label>	
+							</div>
+							<input id="AconcaguaT" type="text" name="Pregunta3" placeholder="verdadero o falso">
+							<div id="caja"></div>
+						</div>
+					</div>
+				</div>
+
+				<div id="Europeos">
+					<div class ="Pregunta" id="preg4">
+						<h2>Pregunta 4</h2>
+						<p>Marque cuales de estos paises son Europeos</p>
+						
+						<div class="Items" id="España">
+							<input  type="checkbox" id="EspañaP" name="Pregunta4">
+							<label for="EspañaP" class="leb" id="EspañaT">España</label>
+						</div>
+
+						<div class="Items" id="Egipto">
+							<input id="EgiptoP" type="checkbox" name="Pregunta4">
+							<label for="EgiptoP" class="leb" id="EgiptoT">Egipto</label>
+						</div>
+
+						<div class="Items" id="Francia">
+							<input id="FranciaP" type="checkbox" name="Pregunta4">
+							<label for="FranciaP" class="leb" id="FranciaT">Francia</label>
+						</div>
+						
+						<div class="Items" id="Rusia">
+							<input type="checkbox" id="RusiaP" name="Pregunta4">
+							<label for="RusiaP" class="leb" id="RusiaT">Rusia</label>
+						</div>
+					</div>
+				</div>
+				<input type="buton" id="boton" value="Enviar respuesta">
+			</form>
+		</div>
+	</body>
+	<script type="text/javascript" src="JavaScript.js"></script>
+</html>
